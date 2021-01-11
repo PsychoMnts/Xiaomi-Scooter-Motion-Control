@@ -30,7 +30,7 @@ The benefit is that you don't have to solder on the wiring of the e-step.
 ## Option 2
 
 Read out the serial wire. The M365 dashboard (https://github.com/augisbud/m365_dashboard) already figured out how to read the current speed.
-This method is proberly more reliable. Measure if there is increasing speed when there is no throttle and then open the throttle with code. 
+This method is proberly more reliable. Measure if there is increasing speed when there is no throttle and then open the throttle with code and slowly fade it to 0%.
 
 # Technical
 ## Throttle
