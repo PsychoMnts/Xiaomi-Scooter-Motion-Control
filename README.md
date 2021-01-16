@@ -1,5 +1,8 @@
 # Xiaomi-Scooter-Motion-Control
-Modification to legalise the Xiaomi Mi Scooters in The Netherlands (Project is not ready to use yet)
+Modification to legalise the Xiaomi Mi Scooters in The Netherlands (Project is not ready to use yet! and not tested!)
+
+The code of this project is based of:
+https://github.com/maksoltane/esp32_xiaomi_m365/
 
 The idea is to make an small hardware modification on the Xiaomi scooters so the comply with the Dutch law. 
 
@@ -22,23 +25,26 @@ The best scooter to do this modification is the Xiaomi Mi Electric Scooter Essen
 If you want to use an M365 you must modify the firmware to lower the motor output.
 
 
-## Option 1
+# How it works
 
-Use a accelerometer to measure the push offs. When there is a push, the throttle will be opened to 100% for a few seconds and slowly fades to 0%.
-The benefit is that you don't have to solder on the wiring of the e-step.
+An ESP32 or ESP8266 will be used to read out the serial-bus of the Xiaomi Mi Scooter.
+The speedometer will be monitored if there are any the push offs with your feed. When there is a push, the throttle will be opened to 100% for a few seconds and then goes to 1% (0% is regen breaking).
+When the breakhandle is being touched the throttle will be released immediately. Also the Mi scooter itself disables the throttle also in case of breaking.
 
-## Option 2
 
-Read out the serial wire. The M365 dashboard (https://github.com/augisbud/m365_dashboard) already figured out how to read the current speed.
-This method is proberly more reliable. Measure if there is increasing speed when there is no throttle and then open the throttle with code and slowly fade it to 0%.
+# Hardware
 
-# Technical
-## Throttle
-The throttle cable can be connected to an MCP4151 which is an digital potential meter. The software should be programmed that it will only open the throttle when the e-step goes faster than 5 km/h. Opening the throttle before that it won't power the motor.
-The break always wins when being pressed. When the throttle is 100% open, it should be lowered to 0% before you can power the motor again.
+- ESP8266 or ESP32
+- JST-ZH cord plug (not sure) to replace the throttle. (or cut it from the trottle, a new one is 4 euro)
+- If you don't want to solder on your xiaomi: A male and female 4-pole e-bike plug like: https://nl.aliexpress.com/item/4001091169417.html
+- Diode: 1N148
+- Resistors: 100R, 680R
+
+# Wiring
+
+Scheme will available when project is tested
 
 # To-do
-- Measure the resistance on the potmeter of the throttle.
-- Decide for the accelerometer option or the direct readout of the serial wire.
 - Make a wiring scheme
-- Write software (I am not a developer, so please help me out!)
+- Test the code
+
