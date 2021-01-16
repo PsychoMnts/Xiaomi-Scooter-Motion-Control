@@ -45,6 +45,7 @@ When the breakhandle is being touched the throttle will be released immediately.
 Scheme will available when project is tested
 
 # To-do
+- Clean the code
 - Make a wiring scheme
 - Test the code
 
