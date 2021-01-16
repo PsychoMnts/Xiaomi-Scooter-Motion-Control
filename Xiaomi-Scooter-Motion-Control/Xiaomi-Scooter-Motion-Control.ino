@@ -1526,7 +1526,7 @@ void handle_led() {
 
 bool release_throttle(void *) {
 
-  analogWrite(throttlepin, 100); //Keep throttle open for 10% to disable KERS. 
+  analogWrite(throttlepin, 362); //Keep throttle open for 10% to disable KERS. 
   motionstate = motionready;
     return false; // false to stop
 }
@@ -1536,7 +1536,7 @@ void motion_control() {
 
 if (bleparsed->brake>1) {
   
-  analogWrite(throttlepin, 0); //close throttle directly when break is touched
+  analogWrite(throttlepin, 305); //close throttle directly when break is touched. 0.88 volt = 305 = 0% throttle
   
   motionstate = motionbreaking;
   timer.cancel();
@@ -1558,7 +1558,7 @@ if (bleparsed->brake>1) {
 // Check if speed is at least 5 km/h
     if (newdata & (abs((float)escparsed->speed/1000.0f)>5.1f)) {
   // Open throttle for 5 seconds
-  analogWrite(throttlepin, 1023);
+  analogWrite(throttlepin, 880); // 2.53 volt = 880 = 100% throttle
   timer.every(5000, release_throttle);
   motionstate = motionbusy;
 
