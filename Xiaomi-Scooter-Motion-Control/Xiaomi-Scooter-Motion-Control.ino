@@ -3,8 +3,7 @@
 
 auto timer_m = timer_create_default();
 
-// constants won't change. Used here to set a pin number:
-int led_pin = 7;
+// Pin of the green throttle wire
 int throttlepin = 6;
 
 //motionmodes
@@ -14,14 +13,8 @@ uint8_t motionstate = 0;
 #define motionbreaking 2
 
 long c_speed; //current speed
-long oldspeed;
+long oldspeed; //speed during last loop
 
-// Generally, you should use "unsigned long" for variables that hold time
-// The value will quickly become too large for an int to store
-unsigned long previousMillis = 0;        // will store last time LED was updated
-
-// constants won't change:
-const long interval = 10000;           // interval at which to blink (milliseconds)
  
 int i = 200;
 int vthrottleval = 0;
