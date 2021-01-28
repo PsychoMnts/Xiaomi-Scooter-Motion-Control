@@ -178,6 +178,10 @@ if (S20C00HZ65.brake > 130) {
    else if (trend <0)
    {
    // speed is decreasing
+	if (c_speed<5000) {
+      	// If speed is under 5 km/h, stop throttle
+      	analogWrite(throttlepin, 0); //  0% throttle
+	}
    }
    else
    {
