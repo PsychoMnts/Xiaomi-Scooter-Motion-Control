@@ -129,30 +129,10 @@ void loop() { //cycle time w\o data exchange ~8 us :)
   Message.ProcessBroadcast();
 
   WDTcounts=0;
+	
+  motion_control();
+  timer_m.tick();
 
-
-  // check to see if it's time to blink the LED; that is, if the difference
-  // between the current time and last time you blinked the LED is bigger than
-  // the interval at which you want to blink the LED.
-  unsigned long currentMillis = millis();
-
-  if (currentMillis - previousMillis >= interval) {
-    // save the last time you blinked the LED
-    previousMillis = currentMillis;
-
-    // if the LED is off turn it on and vice-versa:
-    if (i == 200) {
-      i = 100;
-    } else if (i == 100) {
-      i = 0;
-    } else {
-      i = 200;
-    
-
-    }
-
-    // set the LED with the ledState of the variable:
-   analogWrite(led_pin, i);
   }
   
 }
