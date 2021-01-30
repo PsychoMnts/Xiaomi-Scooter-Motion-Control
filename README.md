@@ -30,7 +30,7 @@ If you want to use an M365 you might need lower the motor output. Not sure if th
 
 An Arduino Nano will be used to read out the serial-bus of the Xiaomi Mi Scooter.
 The speedometer will be monitored if there are any the push offs with your feed. When there is a push, the throttle will be opened to 100% for 5 seconds and then goes to 1% (0% is regen breaking).
-When the breakhandle is being touched the throttle will be released immediately. Also the Mi scooter itself disables the throttle also in case of breaking.
+When the brakehandle is being touched the throttle will be released immediately. Also the Mi scooter itself disables the throttle also in case of braking.
 
 
 # Hardware
