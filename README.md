@@ -38,16 +38,13 @@ When the brakehandle is being touched the throttle will be released immediately.
 - Arduino Nano
 - JST-ZH cord plug (not sure) to replace the throttle. (or cut it from the trottle, a new one is 4 euro)
 - If you don't want to solder on your xiaomi: A male and female 4-pole e-bike plug like: https://nl.aliexpress.com/item/4001091169417.html
-- Diode: 1N148
-- Resistor: 120R
+- MCP4151 (digipot)
+- 2k resistor
 
 # Wiring
 
-![alt text](https://github.com/PsychoMnts/Xiaomi-Scooter-Motion-Control/blob/main/Wiring%20Scheme.png?raw=true)
-Scheme is not final
+(See to do list)
 
 # To-do
-- Purchase test scooter
-- Test the code
-- Clean the code
+- Make new scheme
 
