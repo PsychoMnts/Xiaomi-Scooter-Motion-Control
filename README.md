@@ -1,5 +1,5 @@
 # Xiaomi-Scooter-Motion-Control
-Modification to legalise the Xiaomi Mi Scooters in The Netherlands (Project is not ready to use yet! Please wait before buying parts as they might change.)
+Modification to legalise the Xiaomi Mi Scooters in The Netherlands.
 
 The idea is to make an small hardware modification on the Xiaomi scooters so the comply with the Dutch law. 
 
