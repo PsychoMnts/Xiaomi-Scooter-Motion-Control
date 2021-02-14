@@ -47,4 +47,4 @@ If you don't want to solder on your scooter, you need also:
 # Supported models
 - Xiaomi Scooter Essential
 
-To help supporting more scooters, please use the sniffing tool and share the serial bus data.
+To help supporting more scooters, please use the sniffing tool and share the serial bus data. Join our telegram group if you want to help in this project. https://t.me/joinchat/IuIjHecjckhK1h-a
