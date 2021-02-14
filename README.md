@@ -3,7 +3,7 @@ Modification to legalise the Xiaomi Mi Scooters in The Netherlands.
 
 The idea is to make an small hardware modification on the Xiaomi scooters so the comply with the Dutch law. 
 
-To use an e-step in The Netherlands, you must comply with the following rules:
+To use an scooter (or how we call it here: e-step) in The Netherlands, you must comply with the following rules:
 - There must NO throttle button.
 - The motor must be limited to 250 watts.
 - The motor can only give a "boost" when you push off with your feet.
@@ -24,7 +24,7 @@ The best scooter to do this modification is the Xiaomi Mi Electric Scooter Essen
 # How it works
 
 An Arduino Nano will be used to read out the serial-bus of the Xiaomi Mi Scooter.
-The speedometer will be monitored if there are any the push offs with your feed. When there is a push, the throttle will be opened to 100% for 8 seconds and then goes to 1% (0% is regen breaking).
+The speedometer will be monitored if there are any kicks with your feed. When there is a kick, the throttle will be opened to 100% for 8 seconds and then goes to 10% (0% is regen breaking).
 When the brakehandle is being touched the throttle will be released immediately. Also the Mi scooter itself disables the throttle also in case of braking.
 
 
@@ -48,3 +48,18 @@ If you don't want to solder on your scooter, you need also:
 - Xiaomi Scooter Essential
 
 To help supporting more scooters, please use the sniffing tool and share the serial bus data. Join our telegram group if you want to help in this project. https://t.me/joinchat/IuIjHecjckhK1h-a
+
+
+# IenW over steps met stepondersteuning
+
+"We stellen ons echter op het standpunt dat een tweewielig voertuig, dat met eigen spierkracht wordt voortbewogen en dat duidelijk op het fietspad thuishoort, in de categorie fiets hoort te vallen. (...)  Door de aard van de ondersteuning vallen deze steppen dus ook in de categorie ‘fiets met trapondersteuning’ en hoeven ze niet apart als bijzondere bromfiets te worden toegelaten. U mag hiermee tot maximaal 25 km/u op de openbare weg rijden."
+
+DE MINISTER VAN INFRASTRUCTUUR EN WATERSTAAT,
+
+Namens deze,
+
+Hoofd afdeling Verkeersveiligheid en Wegvervoer
+
+drs. M.N.E.J.G. Philippens
+
+
