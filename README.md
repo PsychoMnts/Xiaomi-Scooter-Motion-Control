@@ -42,7 +42,7 @@ If you don't want to solder on your scooter, you need also:
 
 # Wiring
 
-(See to do list)
+![alt text](https://github.com/PsychoMnts/Xiaomi-Scooter-Motion-Control/blob/main/Wiring%20Scheme_v3.png?raw=true)
 
 # Supported models
 - Xiaomi Scooter Essential
