@@ -207,11 +207,11 @@ void AnalyseKick(){
    if (Speed < 10) {
     ThrottleWrite(140); //  40% throttle
    }
-    else if ((Speed >= 10) & (Speed < 15)){
-      ThrottleWrite(170); //  100% throttle
+    else if ((Speed >= 10) & (Speed < 14)){
+      ThrottleWrite(190); //  80% throttle
     }else{
     
-    ThrottleWrite(214); //  100% throttle
+    ThrottleWrite(233); //  100% throttle
    }
   
   
