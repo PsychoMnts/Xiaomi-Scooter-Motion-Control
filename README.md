@@ -1,7 +1,7 @@
 # Xiaomi-Scooter-Motion-Control
 Modification to legalise the Xiaomi Mi Scooters in The Netherlands.
 
-The idea is to make an small hardware modification on the Xiaomi scooters so the comply with the Dutch law. 
+The idea is to make an small hardware modification on the Xiaomi scooters so they comply with the Dutch law. 
 
 To use an scooter (or how we call it here: e-step) in The Netherlands, you must comply with the following rules:
 - There must NO throttle button.
