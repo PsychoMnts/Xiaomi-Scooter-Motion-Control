@@ -19,7 +19,9 @@ The best scooter to do this modification is the Xiaomi Mi Electric Scooter Essen
 - The motor is 250 watts
 - Max speed is 20 km/h, which is already fast to give push offs with your feet.
 
+# Librarys
 
+- https://github.com/contrem/arduino-timer
 
 # How it works
 
