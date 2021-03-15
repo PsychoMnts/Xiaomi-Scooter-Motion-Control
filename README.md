@@ -47,7 +47,9 @@ If you don't want to solder on your scooter, you need also:
 ![alt text](https://github.com/PsychoMnts/Xiaomi-Scooter-Motion-Control/blob/main/Wiring%20Scheme_v3.png?raw=true)
 
 # Supported models
-- Xiaomi Scooter Essential
+- XIAOMI Mi Electric Scooter Essential
+- XIAOMI Mi Electric Scooter 1S EU (This model is not tested yet)
+- XIAOMI Mi Electric Scooter Pro 2
 
 To help supporting more scooters, please use the sniffing tool and share the serial bus data. Join our telegram group if you want to help in this project. https://t.me/joinchat/IuIjHecjckhK1h-a
 
