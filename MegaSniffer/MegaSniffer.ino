@@ -1,4 +1,7 @@
 #include <Arduino.h>
+#include <SoftwareSerial.h> 
+
+SoftwareSerial SoftSerial(2, 3); // RX, TX
 
 void logByteInHex(uint8_t val)
 {
@@ -11,16 +14,16 @@ void logByteInHex(uint8_t val)
 
 uint8_t readBlocking()
 {
-	while(!Serial2.available())
+	while(!SoftSerial.available())
 		delay(1);
 
-	return Serial2.read();
+	return SoftSerial.read();
 }
 
 void setup()
 {
 	Serial.begin(115200);
-	Serial2.begin(115200);
+	SoftSerial.begin(115200);
 
 	Serial.println("Starting Logging data...");
 }
