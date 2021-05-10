@@ -12,8 +12,7 @@ To use an scooter (or how we call it here: e-step) in The Netherlands, you must 
 Example:
 Micro has e-steps which are modified to comply with dutch rules with an deactivated throttle, like the MICRO M1 COLIBRI.
 https://www.micro-step.nl/nl/emicro-m1-colibri-nl.html
-Example video:
-https://www.youtube.com/watch?v=ig-_bv6khLc
+
 
 The best scooter to do this modification is the Xiaomi Mi Electric Scooter Essential:
 - The motor is 250 watts
@@ -49,7 +48,10 @@ If you don't want to solder on your scooter, you need also:
 # Supported models
 - XIAOMI Mi Electric Scooter Essential
 - XIAOMI Mi Electric Scooter 1S EU (This model is not tested yet)
+- XIAOMI Mi Electric Scooter M365 Pro
 - XIAOMI Mi Electric Scooter Pro 2
+
+XIAOMI Mi Electric Scooter M365 without Speed-O-Meter is NOT compatible!
 
 To help supporting more scooters, please use the sniffing tool and share the serial bus data. Join our telegram group if you want to help in this project. https://t.me/joinchat/IuIjHecjckhK1h-a
 
