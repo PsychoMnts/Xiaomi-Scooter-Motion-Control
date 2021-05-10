@@ -47,7 +47,7 @@ If you don't want to solder on your scooter, you need also:
 
 # Supported models
 - XIAOMI Mi Electric Scooter Essential
-- XIAOMI Mi Electric Scooter 1S EU (This model is not tested yet)
+- XIAOMI Mi Electric Scooter 1S EU
 
 Limit motor modification required:
 - XIAOMI Mi Electric Scooter M365 Pro
