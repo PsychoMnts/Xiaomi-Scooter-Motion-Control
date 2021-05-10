@@ -52,6 +52,8 @@ If you don't want to solder on your scooter, you need also:
 Limit motor modification required:
 - XIAOMI Mi Electric Scooter M365 Pro
 - XIAOMI Mi Electric Scooter Pro 2
+
+
 Guide: https://github.com/PsychoMnts/Xiaomi-Scooter-Motion-Control/blob/main/How%20to%20limit%20the%20Xiaomi%20Pro2%20scooter.docx?raw=true
 
 XIAOMI Mi Electric Scooter M365 without Speed-O-Meter is NOT compatible!
