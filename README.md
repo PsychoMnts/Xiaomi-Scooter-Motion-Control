@@ -6,7 +6,8 @@ The idea is to make an small hardware modification on the Xiaomi scooters so the
 To use an scooter (or how we call it here: e-step) in The Netherlands, you must comply with the following rules:
 - There must NO throttle button.
 - The motor must be limited to 250 watts.
-- The motor can only give a "boost" when you push off with your feet.
+- The motor can only give a "boost" when you kick with your feet.
+- The motor should stop working when stop kicking. (fade-out)
 - Max speed is 25 km/h.
 
 Example:
