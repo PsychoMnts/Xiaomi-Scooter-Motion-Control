@@ -42,7 +42,7 @@ If you don't want to solder on your scooter, you need also:
 - A male and female 4-pole e-bike plug like: https://nl.aliexpress.com/item/4001091169417.html (Blue plug)
 
 Or just buy a complete set!
-https://www.legaalsteppen.nl/p/motion-control-module-elegoo-arduino-nano
+https://www.legaalsteppen.nl/p/motion-control-module-azdelivery-arduino-nano
 
 # Wiring
 
