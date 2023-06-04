@@ -4,7 +4,7 @@ Modification to legalise the Xiaomi Mi Scooters in The Netherlands.
 The idea is to make an small hardware modification on the Xiaomi scooters so they comply with the Dutch law. 
 
 To use an scooter (or how we call it here: e-step) in The Netherlands, you must comply with the following rules:
-- There must NO throttle button.
+- There must be NO functional throttle button. It can either be disabled, or removed entirely.
 - The motor must be limited to 250 watts.
 - The motor can only give a "boost" when you kick with your feet.
 - The motor should stop working when stop kicking. (fade-out)
